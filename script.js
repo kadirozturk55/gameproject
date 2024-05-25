@@ -2,8 +2,6 @@ let move_speed = 3,
   grativy = 0.5;
 let img = document.getElementById("rocket-2");
 let rocket = document.querySelector(".rocket");
-let sound_die = new Audio("sounds effect/die.mp3");
-let sound_point = new Audio("sounds effect/point.mp3");
 
 // getting rocket element properties
 let rocket_props = rocket.getBoundingClientRect();
